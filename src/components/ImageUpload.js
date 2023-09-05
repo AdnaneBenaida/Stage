@@ -25,7 +25,7 @@ function ImageUpload() {
   };
 
   const imagePreview = imagePreviewUrl ? (
-    <img src={imagePreviewUrl} alt="Preview" />
+    <img src={imagePreviewUrl} alt="Preview" width="500" height="600"/>
   ) : (
     <div className="previewText">Please select an Image for Preview</div>
   );

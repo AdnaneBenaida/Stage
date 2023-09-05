@@ -5,7 +5,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Mentors from './pages/Mentors';
 import NotFound from './pages/NotFound';
-import SignUp from './pages/SignUp';
+import SignIn from './pages/SignIn';
 
 
 
@@ -16,7 +16,7 @@ function App() {
         <Route exact path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
-        <Route path="/signup" element={<SignUp/>}/>
+        <Route path="/signin" element={<SignIn/>}/>
         <Route path="/mentors" element={<Mentors/>}/>
         <Route path="*" element={<NotFound/>}/>
 

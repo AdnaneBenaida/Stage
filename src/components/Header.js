@@ -50,6 +50,9 @@ function Header(){
                     }
                 </ul>
             </div>
+            <div className="ml-auto">
+                <Link to="/signin" className="nav-link">Sign In</Link>
+            </div>
         </nav>
     );
 }

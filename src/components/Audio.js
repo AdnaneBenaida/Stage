@@ -28,7 +28,7 @@ export default function Audio() {
         showVisualizer: true,
       }),
       React.createElement('br', null),
-      React.createElement('button', { onClick: recorderControls.stopRecording }, 'Stop recording'),
+      // React.createElement('button', { onClick: recorderControls.stopRecording }, 'Stop recording'),
       React.createElement('br', null)
     )
   );
